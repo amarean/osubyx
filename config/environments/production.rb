@@ -1,6 +1,7 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-
+  config.serve_static_assets = true
+  config.assets.compile = true
   # Code is not reloaded between requests.
   config.cache_classes = true
 
@@ -26,7 +27,7 @@ Rails.application.configure do
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
-
+_
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
 
