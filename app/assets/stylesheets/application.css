@@ -270,7 +270,7 @@ Parallax
 	background-color: #333;
 }
 #parallax2{
-	background-image: url(large_photos/2.jpg);
+	background-image: url('large_photos/2.jpg');
 }
 
 
@@ -279,7 +279,7 @@ Intro
 ================================= */
 
 #intro {
-        background-image: url(large_photos/1.jpg);
+        background-image: url('large_photos/1.jpg');
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
