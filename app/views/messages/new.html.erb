@@ -4,46 +4,35 @@
 		<div class="container-contact2">
 			<div class="wrap-contact2">
 				<div class="contact2-form validate-form">
-					<div class= "contact2-form-title">
-					<label for "contact">
+					<div class= "contact2-form-title" style = "font-family:'Montserrat', sans-serif">
+					<label for "contact" id="title_contact">
 						Contact Us
-					</label>
+					</label></br>
 					<%= form_for @message, url: create_message_url do |f| %>
   							
  							 <%= @message.errors.full_messages.join(', ') %>
 
-					<div class="wrap-input2 validate-input" data-validate="Name is required">
-						<span class="focus-input2" data-placeholder="NAME" style ></span></br></br>
-						<div class = "input2">
+					</br><div class="wrap-input2 validate-input" data-validate="Name is required" style= "font-size:.5em; text-align:left">
+						<label > NAME </label>
 						 <%= f.text_field :name %>
-						</div>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate = "Valid email is required: ex@abc.xyz" style= "font-size:.5em; text-align:left">
+						<label > EMAIL </label>
+						  <%= f.email_field :email %>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate = "Message is required" style= "font-size:.5em; text-align:left"></br>
+							<label > MESSAGE </label>						 
+						<%= f.text_area :body %>
 					
-						
-
-					</div>
-
-					<div class="wrap-input2 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<span class="focus-input2" data-placeholder="EMAIL"></span></br></br>
-						<div class = "input2">
-						  <%= f.email_field :email, placeholder: 'email' %>
-						</div>
-						
-					</div>
-
-					<div class="wrap-input2 validate-input" data-validate = "Message is required">
-						<div class = "input2">
-						 <%= f.text_area :body, placeholder: 'body' %>
-						</div>
-						<span class="focus-input2" data-placeholder="MESSAGE"></span>
+		
 					</div>
 
 					<div class="container-contact2-form-btn">
-						<div class="wrap-contact2-form-btn">
-							<div class="contact2-form-bgbtn"></div>
-								 <%= f.submit "Send" %>
-								 
-						</div>
-					</div>
+						
+								 <%= f.submit "SEND", :id => 'submit_button'%>
+						
 				<% end %>
 </div>
 			</div>
