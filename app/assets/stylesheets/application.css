@@ -284,7 +284,7 @@ Intro
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
-	overflow-x: hidden;
+	//overflow-x: hidden;
 	height:38vh; /*How large the top photo is in the header*/
 	z-index:2;
 	background-size:cover;
@@ -300,12 +300,12 @@ Intro
   justify-content: top;
   align-items: center;
   text-align: center;
-  position: absolute;
+  position: relative;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-	z-index:999;
+  z-index:2;
 }
 
 .intro-text h1 {
