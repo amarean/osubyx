@@ -311,8 +311,13 @@ Intro
   #intro {
     height: auto;
   }
-  #intro {
-    margin-left: 0
+  .intro-text h1{
+    margin-left: 0;
+    font-size: 10px;
+  }
+.intro-text p span{
+    margin-left: 0;
+    font-size: 10px;
   }
 }
 
