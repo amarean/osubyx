@@ -320,7 +320,7 @@ Intro
 	color:#ffffff;
 	text-align:center;
 	font-weight: 700;
-	font-size: 100px;
+	font-size: 2em;
 	line-height:1.1em;
 	padding-top:30px;
 	text-transform: uppercase;
@@ -338,7 +338,7 @@ Intro
 
 .intro-text p span {
 	color:#ffffff;
-	font-size: 60px;
+	font-size: 1.5em;
 	text-align:center;
 	font-weight: 500;
 }
