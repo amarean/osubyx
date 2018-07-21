@@ -284,7 +284,7 @@ Intro
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
-	height:38vh; /*How large the top photo is in the header*/
+	height:50vh; /*How large the top photo is in the header*/
 	z-index:2;
 	background-size:cover;
 	
@@ -307,17 +307,17 @@ Intro
   z-index:2;
 }
 
-@media (max-width: 100%) {
+@media only screen and (max-width: 100%) {
   #intro {
     height: auto;
   }
-  .intro-text h1{
+  h1{
     margin-left: 0;
-    font-size: 10px;
+    font-size: 10px !important;
   }
-.intro-text p span{
+ p span{
     margin-left: 0;
-    font-size: 10px;
+    font-size: 10px !important;
   }
 }
 
@@ -325,9 +325,10 @@ Intro
 	color:#ffffff;
 	text-align:center;
 	font-weight: 700;
-	font-size: 2em;
-	line-height:1.1em;
-	padding-top:30px;
+	font-size: 5vw;
+	line-height:;.5vw
+	padding-top:.5vw;
+	padding-bottom:.25vw;
 	text-transform: uppercase;
 	filter: brightness(100%);
 
@@ -335,15 +336,14 @@ Intro
 
 .line-spacer {
 	width: 20%;
+	height:10% !important;
 	margin:0 auto;
-	margin-top: 20px;
-	margin-bottom: 25px;
 	border-bottom:1px solid #ff4200;
 }
 
 .intro-text p span {
 	color:#ffffff;
-	font-size: 1.5em;
+	font-size: 4vw;
 	text-align:center;
 	font-weight: 500;
 }
