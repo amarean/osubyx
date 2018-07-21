@@ -489,10 +489,10 @@ Works
 
 .og-grid li {
 	display: inline-block;
-	margin: 10px 5px 0 5px;
+	margin: auto;
 	vertical-align: top;
-	height: 250px;
-	width: 250px;
+	height: 15vw;
+	width: 15vw;
 }
 
 .hvrbox * {
