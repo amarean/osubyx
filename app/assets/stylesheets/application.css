@@ -284,7 +284,6 @@ Intro
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
-	//overflow-x: hidden;
 	height:38vh; /*How large the top photo is in the header*/
 	z-index:2;
 	background-size:cover;
