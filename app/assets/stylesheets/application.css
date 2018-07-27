@@ -279,12 +279,12 @@ Parallax
 Intro
 ================================= */
 
-#intro {
+#introbyx {
         background-image: url('large_photos/1.jpg');
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
-	height:50vh; /*How large the top photo is in the header*/
+	height:35vh; /*How large the top photo is in the header*/
 	z-index:2;
 	background-size:cover;
 	
@@ -308,7 +308,7 @@ Intro
 }
 
 @media only screen and (max-width: 100%) {
-  #intro {
+  #introbyx {
     height: auto;
   }
   h1{
